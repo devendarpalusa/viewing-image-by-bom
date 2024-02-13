@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<script>
+var dv=document.createElement("div")
+document.body.appendChild(dv)
+
+
+ var im=document.createElement("img")
+ dv.appendChild(im)
+im.setAttribute
+ im.style.height="500px"
+ im.style.width="400px"
+
+var im1=document.createElement("img")
+document.body.appendChild(im1)
+im1.setAttribute("src","https://acoustic-room.com/wp-content/uploads/2018/02/highlight-120.jpg")
+im1.style.height="200px"
+im1.style.width="100px"
+im1.addEventListener("click",first1)
+
+
+var im2=document.createElement("img")
+document.body.appendChild(im2)
+im2.setAttribute("src","http://cdn.shopify.com/s/files/1/0810/2125/products/ibanez-srms806-multiscale-workshop-bass-guitar-812601049107_1200x1200.jpg?v=1520549734")
+im2.style.height="200px"
+im2.style.width="100px"
+im2.addEventListener("click",first)
+
+var im3=document.createElement("img")
+document.body.appendChild(im3)
+im3.setAttribute("src","https://acoustic-room.com/wp-content/uploads/2014/08/20140822-2K2A7325-Guitar-6.jpg")
+im3.style.height="200px"
+im3.style.width="100px"
+im3.addEventListener("click",second)
+
+var im4=document.createElement("img")
+document.body.appendChild(im4)
+im4.setAttribute("src","https://tse4.mm.bing.net/th?id=OIP.mhZ1HXf5F8Nfqzm0sfaGYAHaLx&pid=Api&P=0&h=180")
+im4.style.height="200px"
+im4.style.width="100px"
+im4.addEventListener("click",third)
+
+
+function first1(){
+    im.setAttribute("src","https://acoustic-room.com/wp-content/uploads/2018/02/highlight-120.jpg")
+}
+function first(){
+    im.setAttribute("src","http://cdn.shopify.com/s/files/1/0810/2125/products/ibanez-srms806-multiscale-workshop-bass-guitar-812601049107_1200x1200.jpg?v=1520549734")
+}
+
+
+function second(){
+    im.setAttribute("src","https://acoustic-room.com/wp-content/uploads/2014/08/20140822-2K2A7325-Guitar-6.jpg")
+}
+
+function third(){
+    im.setAttribute("src","https://tse4.mm.bing.net/th?id=OIP.mhZ1HXf5F8Nfqzm0sfaGYAHaLx&pid=Api&P=0&h=180")
+}
+
+
+</script>
+
+
+
+</body>
+</html>
